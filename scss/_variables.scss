@@ -13,7 +13,8 @@ $gray-700: #495057 !default;
 $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black:    #000 !default;
-$test:   #423f36!default;
+$test: #33363b ;
+
 
 $blue:    #007bff !default;
 $indigo:  #6610f2 !default;
@@ -27,7 +28,7 @@ $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
 
 $primary:       $test !default;
-$secondary:     $gray-600 !default;
+$secondary:     $white !default;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;

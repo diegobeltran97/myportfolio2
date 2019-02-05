@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Resume v5.0.2 (https://startbootstrap.com/template-overviews/resume)
- * Copyright 2013-2018 [object Object]
+ * Copyright 2013-2019 [object Object]
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
 
@@ -72,7 +72,7 @@ p.lead {
 }
 
 .social-icons a:hover {
-  background-color: #423f36;
+  background-color: #33363b;
 }
 
 .dev-icons {
@@ -80,7 +80,7 @@ p.lead {
 }
 
 .dev-icons .list-inline-item i:hover {
-  color: #423f36;
+  color: #33363b;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -90,7 +90,7 @@ p.lead {
 }
 
 #sideNav .navbar-toggler:focus {
-  outline-color: #6c6758;
+  outline-color: #565c64;
 }
 
 @media (min-width: 992px) {
@@ -119,7 +119,6 @@ p.lead {
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
   }
   #sideNav .navbar-collapse {
     display: -webkit-box;
@@ -140,6 +139,12 @@ p.lead {
     -ms-flex-direction: column;
     flex-direction: column;
     width: 100%;
+  }
+  #sideNav .navbar-collapse .navbar-nav .dropdown .nav-lan {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-lan:hover {
+    color: #fff;
   }
   #sideNav .navbar-collapse .navbar-nav .nav-item {
     display: block;
@@ -176,17 +181,17 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #423f36 !important;
+  background-color: #33363b !important;
 }
 
 .text-primary {
-  color: #423f36 !important;
+  color: #33363b !important;
 }
 
 a {
-  color: #423f36;
+  color: #33363b;
 }
 
 a:hover, a:focus, a:active {
-  color: #181714;
+  color: #101012;
 }

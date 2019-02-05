@@ -31,7 +31,7 @@
       .img-profile {
         max-width: 10rem;
         max-height: 10rem;
-        border: 0.5rem solid fade-out($white, 0.8);
+        //border: 0.5rem solid fade-out($white, 0.8);
       }
     }
     .navbar-collapse {
@@ -43,13 +43,20 @@
       margin-bottom: auto;
       .navbar-nav {
         flex-direction: column;
-
         width: 100%;
+        .dropdown .nav-lan {
+          color: rgba(255,255,255,.5);
+          
+        }
+          .nav-lan:hover {
+            color: $white;
+          }
         .nav-item {
           display: block;
           .nav-link {
             display: block;
           }
+          
         }
       }
     }
